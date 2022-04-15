@@ -10,9 +10,9 @@ import UIKit
 
 class KeyboardControl:NSObject {
     
-    static let keyboardNotifications = [
-        NSNotification.Name.UIKeyboardWillShow,
-        NSNotification.Name.UIKeyboardWillHide
+    static let keyboardNotifications:[NSNotification.Name] = [
+        .UIKeyboardWillShow,
+        .UIKeyboardWillHide
     ]
     
     let view:UIView
